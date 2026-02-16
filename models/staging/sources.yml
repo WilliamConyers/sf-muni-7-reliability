@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_transit_data
+    description: "Raw transit data from 511 website"
+    database: muni-7-analysis
+    schema: raw_511_transit_data
+    tables:
+      - name: trips_2025_12
+      - name: stop_observations_2025_12
+      - name: stops_2025_12
